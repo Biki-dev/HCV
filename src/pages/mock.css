@@ -1,0 +1,21 @@
+.mock-container {
+  background-color: #f1ecfc;
+  border: 2px dashed #7f4ef3;
+  padding: 1.5rem;
+  border-radius: 16px;
+  max-width: 600px;
+  margin: 2rem auto;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(127, 78, 243, 0.1);
+}
+
+.mock-heading {
+  color: #7f4ef3;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.mock-text {
+  font-size: 1rem;
+  color: #4c3d73;
+}
