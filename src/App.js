@@ -1,5 +1,6 @@
 import './App.css';
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
+import { MathJaxContext } from "better-react-mathjax";
 import Navbar from './components/navbar.jsx';
 import Footer from './components/footer.jsx';
 import Home from './pages/home.jsx';
@@ -12,6 +13,7 @@ import Terms from './pages/terms.jsx';
 
 function App() {
   return (
+    <MathJaxContext>
     <Router>
       <Navbar />
       <Routes>
@@ -25,6 +27,7 @@ function App() {
       </Routes>
       <Footer />
     </Router>
+     </MathJaxContext>
   );
 }
 

@@ -1,5 +1,6 @@
 import { useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
+import { MathJax } from "better-react-mathjax";
 import './question.css';
 
 const Question = () => {
@@ -59,10 +60,12 @@ const Question = () => {
   return (
     <div className="quiz-container">
       <div className="breadcrumb">{chapterName || `Chapter ${chapterId}`} Questions</div>
+      
       <div className="question-section">
         {currentQuestion.questionText && (
           <div className="question-text">
-            <strong>Q{currentIndex + 1}:</strong> {currentQuestion.questionText}
+            <strong>Q{currentIndex + 1}:</strong>
+            <MathJax>{currentQuestion.questionText}</MathJax>
           </div>
         )}
 
@@ -85,7 +88,7 @@ const Question = () => {
               onClick={() => handleOptionClick(opt)}
               disabled={showSolution}
             >
-              {opt}
+              <MathJax>{opt}</MathJax>
             </button>
           ))}
         </div>
@@ -93,7 +96,9 @@ const Question = () => {
         {showSolution && (
           <div className="solution-box">
             <h4>Solution:</h4>
-            <p>{currentQuestion.solutionText || 'No solution provided.'}</p>
+            <MathJax>
+              {currentQuestion.solutionText || 'No solution provided.'}
+            </MathJax>
           </div>
         )}
 

@@ -2,6 +2,7 @@ const express = require('express');
 const router = express.Router();
 const Question = require('../models/Question');
 
+
 router.get('/:chapterId', async (req, res) => {
   try {
     const chapterId = parseInt(req.params.chapterId);
