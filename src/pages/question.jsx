@@ -60,12 +60,12 @@ const Question = () => {
   return (
     <div className="quiz-container">
       <div className="breadcrumb">{chapterName || `Chapter ${chapterId}`} Questions</div>
-      
+
       <div className="question-section">
         {currentQuestion.questionText && (
           <div className="question-text">
-            <strong>Q{currentIndex + 1}:</strong>
-            <MathJax>{currentQuestion.questionText}</MathJax>
+            <strong>Q{currentIndex + 1}:</strong>{" "}
+            <MathJax dynamic inline>{currentQuestion.questionText}</MathJax>
           </div>
         )}
 
@@ -88,7 +88,7 @@ const Question = () => {
               onClick={() => handleOptionClick(opt)}
               disabled={showSolution}
             >
-              <MathJax>{opt}</MathJax>
+              <MathJax dynamic inline>{opt}</MathJax>
             </button>
           ))}
         </div>
@@ -96,9 +96,7 @@ const Question = () => {
         {showSolution && (
           <div className="solution-box">
             <h4>Solution:</h4>
-            <MathJax>
-              {currentQuestion.solutionText || 'No solution provided.'}
-            </MathJax>
+            <MathJax dynamic>{currentQuestion.solutionText || 'No solution provided.'}</MathJax>
           </div>
         )}
 
