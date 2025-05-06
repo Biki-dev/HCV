@@ -1,0 +1,488 @@
+[
+  {
+    "chapterId": 2,
+    "chapter": "REST AND MOTION : KINEMATICS",
+    "exercise": "Objective -1",
+    "questionText": "A motor car is going due north at a speed of 50 km/h. It makes a 90° left turn without changing the speed. The change in the velocity of the car is about",
+    "questionImage": "",
+    "options": [
+      "50 km/h",
+      "100 km/h",
+      "70.7 km/h",
+      "25 km/h"
+    ],
+    "correctAnswer": "70.7 km/h",
+    "solutionText": "Velocity is a vector quantity. When the car turns 90° left at the same speed, the change in velocity vector magnitude is given by the vector difference: Δv = √(v^2 + v^2) = v√2 = 50 × 1.414 = 70.7 km/h."
+  },
+  {
+    "chapterId": 2,
+    "chapter": "REST AND MOTION : KINEMATICS",
+    "exercise": "Objective -1",
+    "questionText": "Figure shows the displacement time graph of a particle moving on the X-axis. Which of the following statements is true about the motion?",
+    "questionImage": "https://www.doubtnut.com/path-to-displacement-time-graph-image",
+    "options": [
+      "Particle is at rest when displacement is constant",
+      "Particle velocity is zero when graph is a straight line",
+      "Particle acceleration is maximum when displacement is maximum",
+      "Particle velocity is maximum when displacement is zero"
+    ],
+    "correctAnswer": "Particle is at rest when displacement is constant",
+    "solutionText": "Displacement constant means no change in position over time, so velocity is zero and particle is at rest."
+  },
+  {
+    "chapterId": 2,
+    "chapter": "REST AND MOTION : KINEMATICS",
+    "exercise": "Objective -1",
+    "questionText": "A particle has a velocity u towards east at t=0. Its acceleration is towards west and is constant. Let x_A and x_B be the magnitude of displacements in the first 10 seconds and the next 10 seconds respectively. Then",
+    "questionImage": "",
+    "options": [
+      "x_A > x_B",
+      "x_A = x_B",
+      "x_A < x_B",
+      "x_B = 0"
+    ],
+    "correctAnswer": "x_A > x_B",
+    "solutionText": "Since acceleration is opposite to velocity, particle slows down. Displacement in first 10s is more than in next 10s as velocity decreases."
+  },
+  {
+    "chapterId": 2,
+    "chapter": "REST AND MOTION : KINEMATICS",
+    "exercise": "Objective -1",
+    "questionText": "A person travelling on a straight line moves with a uniform velocity v_1 for some time and with uniform velocity v_2 for the next equal time. The average velocity v is given by",
+    "questionImage": "",
+    "options": [
+      "(v_1 + v_2)/2",
+      "2v_1v_2/(v_1 + v_2)",
+      "√(v_1 v_2)",
+      "(v_1 - v_2)/2"
+    ],
+    "correctAnswer": "(v_1 + v_2)/2",
+    "solutionText": "Average velocity for equal time intervals is the arithmetic mean: (v_1 + v_2)/2."
+  },
+  {
+    "chapterId": 2,
+    "chapter": "REST AND MOTION : KINEMATICS",
+    "exercise": "Objective -1",
+    "questionText": "A person travelling on a straight line moves with a uniform velocity v_1 for a distance x and with a uniform velocity v_2 for the next equal distance. The average velocity v is given by",
+    "questionImage": "",
+    "options": [
+      "(v_1 + v_2)/2",
+      "2v_1v_2/(v_1 + v_2)",
+      "√(v_1 v_2)",
+      "(v_1 - v_2)/2"
+    ],
+    "correctAnswer": "2v_1v_2/(v_1 + v_2)",
+    "solutionText": "Average velocity for equal distances is given by harmonic mean: v = 2v_1v_2/(v_1 + v_2)."
+  },
+  {
+    "chapterId": 2,
+    "chapter": "REST AND MOTION : KINEMATICS",
+    "exercise": "Objective -1",
+    "questionText": "A stone is released from an elevator going up with an acceleration a. The acceleration of the stone after the release is",
+    "questionImage": "",
+    "options": [
+      "g",
+      "g + a",
+      "g - a",
+      "a"
+    ],
+    "correctAnswer": "g - a",
+    "solutionText": "From the elevator frame, effective acceleration is g - a downward because elevator accelerates upward."
+  },
+  {
+    "chapterId": 2,
+    "chapter": "REST AND MOTION : KINEMATICS",
+    "exercise": "Objective -1",
+    "questionText": "A person standing near the edge of the top of a building throws two balls A and B. The ball A is thrown vertically upward and B is thrown vertically downward with the same speed. The ball A hits the ground with speed v_A and the ball B hits the ground with a speed v_B. We have",
+    "questionImage": "",
+    "options": [
+      "v_A = v_B",
+      "v_A > v_B",
+      "v_A < v_B",
+      "v_A = 0"
+    ],
+    "correctAnswer": "v_A = v_B",
+    "solutionText": "Both balls cover the same vertical distance and initial speeds are equal in magnitude but opposite directions; final speeds on hitting ground are equal."
+  },
+  {
+    "chapterId": 2,
+    "chapter": "REST AND MOTION : KINEMATICS",
+    "exercise": "Objective -1",
+    "questionText": "In a projectile motion the velocity",
+    "questionImage": "",
+    "options": [
+      "Remains constant in magnitude and direction",
+      "Changes in magnitude but not in direction",
+      "Changes in direction but not in magnitude",
+      "Changes in both magnitude and direction"
+    ],
+    "correctAnswer": "Changes in both magnitude and direction",
+    "solutionText": "Projectile velocity changes due to gravity affecting vertical component, so both magnitude and direction change."
+  },
+  {
+    "chapterId": 2,
+    "chapter": "REST AND MOTION : KINEMATICS",
+    "exercise": "Objective -1",
+    "questionText": "Two bullets are fired simultaneously, horizontally and with different speeds from the same place. Which bullet will hit the ground first?",
+    "questionImage": "",
+    "options": [
+      "Bullet with higher speed",
+      "Bullet with lower speed",
+      "Both hit simultaneously",
+      "Cannot be determined"
+    ],
+    "correctAnswer": "Both hit simultaneously",
+    "solutionText": "Vertical motion is independent of horizontal speed; both bullets fall under gravity and hit ground simultaneously."
+  },
+  {
+    "chapterId": 2,
+    "chapter": "REST AND MOTION : KINEMATICS",
+    "exercise": "Objective -1",
+    "questionText": "The range of a projectile fired at an angle of 15° is 50 m. If it is fired with the same speed at an angle of 45°, its range will be",
+    "questionImage": "",
+    "options": [
+      "100 m",
+      "150 m",
+      "200 m",
+      "50 m"
+    ],
+    "correctAnswer": "100 m",
+    "solutionText": "Range R = (u^2 sin 2θ)/g. Since sin 30° = 0.5 and sin 90° = 1, range at 45° is twice that at 15°, so 50×2=100 m."
+  },
+  {
+    "chapterId": 2,
+    "chapter": "REST AND MOTION : KINEMATICS",
+    "exercise": "Objective -1",
+    "questionText": "Two projectiles A and B are projected with angle of projection 15° for the projectile A and 45° for the projectile B. If R_A and R_B be the horizontal range for the two projectiles then",
+    "questionImage": "",
+    "options": [
+      "R_A = R_B",
+      "R_A < R_B",
+      "R_A > R_B",
+      "Cannot be determined"
+    ],
+    "correctAnswer": "R_A < R_B",
+    "solutionText": "Range is proportional to sin 2θ. Since sin 30° < sin 90°, R_A < R_B."
+  },
+  {
+    "chapterId": 2,
+    "chapter": "REST AND MOTION : KINEMATICS",
+    "exercise": "Objective -1",
+    "questionText": "A river is flowing from west to east at a speed of 5 metres per minute. A man on the south bank of the river, capable of swimming at 10 metres per minute in still water, wants to swim across the river in the shortest time. He should swim in a direction",
+    "questionImage": "",
+    "options": [
+      "Straight north",
+      "North-east",
+      "North-west",
+      "Straight east"
+    ],
+    "correctAnswer": "Straight north",
+    "solutionText": "To minimize time across, swim directly perpendicular to river flow (straight north)."
+  },
+  {
+    "chapterId": 2,
+    "chapter": "REST AND MOTION : KINEMATICS",
+    "exercise": "Objective -1",
+    "questionText": "In the arrangement shown in figure the ends P and Q of an inextensible string move downwards with uniform speed u. Pulleys A and B are fixed. The mass M moves upwards with a speed",
+    "questionImage": "https://www.doubtnut.com/path-to-pulley-figure-image",
+    "options": [
+      "u",
+      "2u",
+      "u/2",
+      "3u"
+    ],
+    "correctAnswer": "u",
+    "solutionText": "Due to string constraints and pulley arrangement, the mass moves up at speed u when ends move down at speed u."
+  },
+  {
+    "chapterId": 2,
+    "chapter": "REST AND MOTION : KINEMATICS",
+    "exercise": "Objective -2",
+    "questionText": "Consider the motion of the tip of the minute hand of a clock. In one hour:",
+    "questionImage": "",
+    "options": [
+      "The displacement is zero",
+      "The distance travelled is zero",
+      "The displacement is not zero",
+      "The distance travelled is not zero"
+    ],
+    "correctAnswer": [
+      "The displacement is not zero",
+      "The distance travelled is not zero"
+    ],
+    "solutionText": "In one hour, the tip moves from one point to another on the circumference (not back to start), so displacement and distance are both nonzero."
+  },
+  {
+    "chapterId": 2,
+    "chapter": "REST AND MOTION : KINEMATICS",
+    "exercise": "Objective -2",
+    "questionText": "A particle moves along the X-axis as x = u(t-2 s) + a(t-2 s)^2. Pick the correct statements:",
+    "questionImage": "",
+    "options": [
+      "Initial position at t=0 is zero",
+      "Initial position at t=2s is zero",
+      "Initial velocity at t=0 is u",
+      "Initial velocity at t=2s is u"
+    ],
+    "correctAnswer": [
+      "Initial position at t=2s is zero",
+      "Initial velocity at t=2s is u"
+    ],
+    "solutionText": "At t=2s, x=0 and velocity = u + 2a(t-2), so at t=2s, velocity = u."
+  },
+  {
+    "chapterId": 2,
+    "chapter": "REST AND MOTION : KINEMATICS",
+    "exercise": "Objective -2",
+    "questionText": "An object may have:",
+    "questionImage": "",
+    "options": [
+      "Zero velocity and non-zero acceleration",
+      "Zero acceleration and non-zero velocity",
+      "Zero velocity and zero acceleration",
+      "Non-zero velocity and non-zero acceleration"
+    ],
+    "correctAnswer": [
+      "Zero velocity and non-zero acceleration",
+      "Zero acceleration and non-zero velocity",
+      "Zero velocity and zero acceleration",
+      "Non-zero velocity and non-zero acceleration"
+    ],
+    "solutionText": "All combinations are possible: e.g., at turning point (a≠0, v=0), uniform motion (a=0, v≠0), at rest (a=0, v=0), accelerated motion (a≠0, v≠0)."
+  },
+  {
+    "chapterId": 2,
+    "chapter": "REST AND MOTION : KINEMATICS",
+    "exercise": "Objective -2",
+    "questionText": "Mark the correct statements for a particle going on a straight line:",
+    "questionImage": "",
+    "options": [
+      "If velocity is zero, acceleration must be zero",
+      "If velocity is zero, acceleration may not be zero",
+      "If acceleration is zero, velocity must be zero",
+      "If acceleration is zero, velocity may not be zero"
+    ],
+    "correctAnswer": [
+      "If velocity is zero, acceleration may not be zero",
+      "If acceleration is zero, velocity may not be zero"
+    ],
+    "solutionText": "At turning points, velocity is zero but acceleration is not. If acceleration is zero, velocity can be any constant value."
+  },
+  {
+    "chapterId": 2,
+    "chapter": "REST AND MOTION : KINEMATICS",
+    "exercise": "Objective -2",
+    "questionText": "The velocity of a particle is zero at t=0. Which of the following statements are correct?",
+    "questionImage": "",
+    "options": [
+      "The acceleration must be zero at t=0",
+      "The acceleration may not be zero at t=0",
+      "The particle must be at rest at t=0",
+      "The particle may be moving at t>0"
+    ],
+    "correctAnswer": [
+      "The acceleration may not be zero at t=0",
+      "The particle may be moving at t>0"
+    ],
+    "solutionText": "Velocity zero does not imply acceleration zero (e.g., at a turning point). The particle can start moving after t=0."
+  },
+  {
+    "chapterId": 2,
+    "chapter": "REST AND MOTION : KINEMATICS",
+    "exercise": "Objective -2",
+    "questionText": "The velocity time plot for a particle moving on straight line is shown in the figure. Which statements are correct?",
+    "questionImage": "https://www.doubtnut.com/path-to-vt-graph-image",
+    "options": [
+      "Particle moves with constant acceleration",
+      "Particle moves with constant velocity",
+      "Particle returns to its starting point",
+      "Particle never returns to starting point"
+    ],
+    "correctAnswer": [
+      "Particle returns to its starting point"
+    ],
+    "solutionText": "If area under v-t curve above and below time axis are equal and opposite, net displacement is zero, so particle returns to starting point."
+  },
+  {
+    "chapterId": 2,
+    "chapter": "REST AND MOTION : KINEMATICS",
+    "exercise": "Objective -2",
+    "questionText": "Figure shows the position of a particle moving on the X-axis as a function of time. Which statements are correct?",
+    "questionImage": "https://www.doubtnut.com/path-to-xt-graph-image",
+    "options": [
+      "Particle moves in positive direction only",
+      "Particle moves in negative direction only",
+      "Particle changes direction during motion",
+      "Particle never changes direction"
+    ],
+    "correctAnswer": [
+      "Particle changes direction during motion"
+    ],
+    "solutionText": "If the slope of x-t graph changes sign, the particle changes direction."
+  },
+  {
+    "chapterId": 2,
+    "chapter": "REST AND MOTION : KINEMATICS",
+    "exercise": "Objective -2",
+    "questionText": "The acceleration of a particle as seen from two frames S1 and S2 have equal magnitudes 4 m/s². Which of the following statements are correct?",
+    "questionImage": "",
+    "options": [
+      "Both frames are inertial",
+      "Both frames are non-inertial",
+      "One is inertial, one is non-inertial",
+      "At least one frame must be inertial"
+    ],
+    "correctAnswer": [
+      "Both frames are inertial"
+    ],
+    "solutionText": "Acceleration is same in both frames only if both are inertial (or both non-inertial with same acceleration, but standard answer: both inertial)."
+  },
+  {
+    "chapterId": 2,
+    "chapter": "REST AND MOTION : KINEMATICS",
+    "exercise": "Objective -2",
+    "questionText": "Objective -2 questions and complete solutions for chapter REST AND MOTION : KINEMATICS of HC VERMA PHYSICS (ENGLISH) of Class 11",
+    "questionImage": "",
+    "options": [
+      "This is a heading, not a question",
+      "Skip",
+      "N/A",
+      "N/A"
+    ],
+    "correctAnswer": [
+      "This is a heading, not a question"
+    ],
+    "solutionText": "No question here; this is a section heading."
+  },
+  {
+    "chapterId": 3,
+    "chapter": "THE FORCES",
+    "exercise": "Objective -1",
+    "questionText": "When Neils Bohr shook hand with Werner Heisenberg, what kind of force did they exert?",
+    "questionImage": "",
+    "options": [
+      "Gravitational force",
+      "Electromagnetic force",
+      "Nuclear force",
+      "Weak force"
+    ],
+    "correctAnswer": "Electromagnetic force",
+    "solutionText": "The force between two people shaking hands is due to electromagnetic interactions between the atoms in their hands."
+  },
+  {
+    "chapterId": 3,
+    "chapter": "THE FORCES",
+    "exercise": "Objective -1",
+    "questionText": "Let E, G and N represent the magnitudes of electromagnetic, gravitational and nuclear forces between two electrons at a given separation. Then",
+    "questionImage": "",
+    "options": [
+      "E > N > G",
+      "N > E > G",
+      "G > E > N",
+      "E > G > N"
+    ],
+    "correctAnswer": "E > N > G",
+    "solutionText": "For two electrons, electromagnetic force is much stronger than nuclear (which is negligible at atomic distances) and gravitational (which is weakest)."
+  },
+  {
+    "chapterId": 3,
+    "chapter": "THE FORCES",
+    "exercise": "Objective -1",
+    "questionText": "The sum of all electromagnetic forces between different particles of a system of charged particles is zero.",
+    "questionImage": "",
+    "options": [
+      "Always true",
+      "Never true",
+      "True only if system is neutral",
+      "True only if system is isolated"
+    ],
+    "correctAnswer": "Always true",
+    "solutionText": "By Newton's third law, the force between every pair is equal and opposite, so the sum over all pairs is zero."
+  },
+  {
+    "chapterId": 3,
+    "chapter": "THE FORCES",
+    "exercise": "Objective -1",
+    "questionText": "A 60 kg man pushes a 40 kg man by a force of 60 N. The 40 kg man has pushed the other man with a force of",
+    "questionImage": "",
+    "options": [
+      "60 N",
+      "40 N",
+      "0 N",
+      "100 N"
+    ],
+    "correctAnswer": "60 N",
+    "solutionText": "By Newton's third law, the force exerted by the 40 kg man on the 60 kg man is equal in magnitude and opposite in direction (60 N)."
+  },
+  {
+    "chapterId": 3,
+    "chapter": "THE FORCES",
+    "exercise": "Objective -2",
+    "questionText": "Mark all correct statements about fundamental forces.",
+    "questionImage": "",
+    "options": [
+      "Gravitational force is the weakest",
+      "Nuclear force acts only at very short ranges",
+      "Electromagnetic force is responsible for chemical bonding",
+      "Weak force is responsible for beta decay"
+    ],
+    "correctAnswer": [
+      "Gravitational force is the weakest",
+      "Nuclear force acts only at very short ranges",
+      "Electromagnetic force is responsible for chemical bonding",
+      "Weak force is responsible for beta decay"
+    ],
+    "solutionText": "All statements are correct descriptions of the four fundamental forces."
+  },
+  {
+    "chapterId": 3,
+    "chapter": "THE FORCES",
+    "exercise": "Objective -2",
+    "questionText": "Which of the following pairs of forces are both short-range forces?",
+    "questionImage": "",
+    "options": [
+      "Gravitational and electromagnetic",
+      "Electromagnetic and weak",
+      "Nuclear and weak",
+      "Gravitational and nuclear"
+    ],
+    "correctAnswer": [
+      "Nuclear and weak"
+    ],
+    "solutionText": "Both nuclear and weak forces act only at subatomic distances, making them short-range forces."
+  },
+  {
+    "chapterId": 3,
+    "chapter": "THE FORCES",
+    "exercise": "Objective -2",
+    "questionText": "Which force is responsible for the stability of atomic nuclei?",
+    "questionImage": "",
+    "options": [
+      "Gravitational force",
+      "Electromagnetic force",
+      "Strong nuclear force",
+      "Weak nuclear force"
+    ],
+    "correctAnswer": [
+      "Strong nuclear force"
+    ],
+    "solutionText": "The strong nuclear force binds protons and neutrons together in the nucleus, overcoming the electromagnetic repulsion between protons."
+  },
+  {
+    "chapterId": 3,
+    "chapter": "THE FORCES",
+    "exercise": "Objective -2",
+    "questionText": "Which of the following forces does not act at a distance?",
+    "questionImage": "",
+    "options": [
+      "Gravitational force",
+      "Electromagnetic force",
+      "Contact force",
+      "Nuclear force"
+    ],
+    "correctAnswer": [
+      "Contact force"
+    ],
+    "solutionText": "Contact forces require physical contact between objects, unlike the other forces which can act at a distance."
+  }
+]

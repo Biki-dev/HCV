@@ -1,35 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
-import Navbar from './components/navbar.jsx'
-import Footer from './components/footer.jsx'
-import Home from './pages/home.jsx'
-import Chapter from './pages/chapter.jsx'
-import Question from './pages/question.jsx'
-import Mock from './pages/mock.jsx'
-import About from './pages/about.jsx'
-import Contect from './pages/contect.jsx'
-import Terms from './pages/terms.jsx'
+import Navbar from './components/navbar.jsx';
+import Footer from './components/footer.jsx';
+import Home from './pages/home.jsx';
+import Chapter from './pages/chapter.jsx';
+import Question from './pages/question.jsx'; // This stays
+import Mock from './pages/mock.jsx';
+import About from './pages/about.jsx';
+import Contect from './pages/contect.jsx';
+import Terms from './pages/terms.jsx';
 
 function App() {
   return (
     <Router>
       <Navbar />
       <Routes>
-      <Route path="/" element={
-        <>
-        <Home />
-        </>
-      }
-      />
-      <Route path="/chapter" element={<Chapter/>}/>
-      <Route path="/question" element={<Question/>}/>
-      <Route path="/mock" element={<Mock/>}/>
-      <Route path="/about" element={<About/>}/>
-      <Route path="/terms" element={<Terms/>}/>
-      <Route path="/contect" element={<Contect/>}/>
-     </Routes>
-     <Footer/>
+        <Route path="/" element={<Home />} />
+        <Route path="/chapter" element={<Chapter />} />
+        <Route path="/question/:chapterId" element={<Question />} />
+        <Route path="/mock" element={<Mock />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/terms" element={<Terms />} />
+        <Route path="/contect" element={<Contect />} />
+      </Routes>
+      <Footer />
     </Router>
   );
 }

@@ -1,62 +1,45 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './contect.css';
+import pfp from '../assets/pfp.png';
+import tele from '../assets/telegram.png';
+import insta from '../assets/instagram.png';
+import git from '../assets/github.png';
 
-const Contect = () => {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: ''
-  });
-
-  const handleChange = (e) => {
-    setFormData(prev => ({
-      ...prev,
-      [e.target.name]: e.target.value
-    }));
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Placeholder for form handling logic
-    alert('Thanks for reaching out!');
-  };
-
+const Profile = () => {
   return (
-    <div className="contect-container">
-      <h1 className="contect-heading">Get in Touch</h1>
-      <p className="contect-subtext">
-        Have any feedback or questions? Fill out the form below!
-      </p>
-
-      <form className="contect-form" onSubmit={handleSubmit}>
-        <input
-          type="text"
-          name="name"
-          placeholder="Your Name"
-          value={formData.name}
-          onChange={handleChange}
-          required
-        />
-        <input
-          type="email"
-          name="email"
-          placeholder="Your Email"
-          value={formData.email}
-          onChange={handleChange}
-          required
-        />
-        <textarea
-          name="message"
-          placeholder="Your Message"
-          rows="5"
-          value={formData.message}
-          onChange={handleChange}
-          required
-        ></textarea>
-        <button type="submit" className="submit-btn">Send Message</button>
-      </form>
+    <div className="profile-card">
+      <div className="pfp"><img src={pfp} alt="Profile" className="profile-img" /></div>
+      <div className="name">Biki-dev</div>
+      <div className="titlecon">JAVASCRIPT DEVELOPER</div>
+      
+      <div className="bio">
+        17-year-old with a dream to build my own browser.
+        Exploring the world of coding, logic, and smart tech.
+        Working on AI-powered apps and quiz platforms.
+        Driven by curiosity, discipline, and big ambitions.
+      </div>
+      
+      <button className="hire-me">Follow</button>
+      
+      <div className="stats">
+  <div className="stat">
+    <a href="https://instagram.com/naru.tobik1" target="_blank" rel="noopener noreferrer">
+      <img src={insta} alt="Instagram" className="social-icon" />
+    </a>
+  </div>
+  <div className="stat">
+    <a href="https://t.me/daaattebayo" target="_blank" rel="noopener noreferrer">
+      <img src={tele} alt="Telegram" className="social-icon" />
+    </a>
+  </div>
+  <div className="stat">
+    <a href="https://github.com/Biki-dev" target="_blank" rel="noopener noreferrer">
+      <img src={git} alt="GitHub" className="social-icon" />
+    </a>
+  </div>
+</div>
     </div>
   );
 };
 
-export default Contect;
+export default Profile;

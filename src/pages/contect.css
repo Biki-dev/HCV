@@ -1,52 +1,96 @@
-.contect-container {
-  max-width: 600px;
-  margin: 3rem auto;
-  padding: 2rem;
-  background-color: #f1ecfc;
-  border-radius: 16px;
-  box-shadow: 0 4px 12px rgba(127, 78, 243, 0.1);
-  font-family: Arial, sans-serif;
+.profile-card {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    padding: 30px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+}
+.profile-img{
+  width: 70px;
+  height: auto;
+  padding-bottom: 10px;
 }
 
-.contect-heading {
-  text-align: center;
-  color: #7f4ef3;
-  font-size: 2rem;
-  margin-bottom: 0.5rem;
+.name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
 }
 
-.contect-subtext {
-  text-align: center;
-  color: #4c3d73;
-  margin-bottom: 2rem;
+.titlecon {
+    font-size: 16px;
+    color: #7b2cbf;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
 }
 
-.contect-form {
+.bio {
+    color: #666;
+    margin-bottom: 25px;
+    line-height: 1.5;
+    font-style: italic;
+}
+
+.hire-me {
+    background-color: #000;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 30px;
+    transition: background-color 0.3s;
+}
+
+.hire-me:hover {
+    background-color: #333;
+}
+
+.initials {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.stats {
   display: flex;
-  flex-direction: column;
-  gap: 1rem;
+  justify-content: space-around;
+  margin: 20px 0;
 }
 
-.contect-form input,
-.contect-form textarea {
-  padding: 0.75rem 1rem;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  font-size: 1rem;
-  outline: none;
+.stat {
+  text-align: center;
 }
 
-.submit-btn {
-  background-color: #7f4ef3;
-  color: white;
-  border: none;
-  padding: 0.75rem 1.2rem;
-  font-size: 1rem;
-  border-radius: 12px;
-  cursor: pointer;
-  transition: background 0.3s ease;
+.stat a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  padding: 10px;
+  transition: transform 0.2s;
 }
 
-.submit-btn:hover {
-  background-color: #683ed9;
+.stat a:hover {
+  transform: scale(1.05);
 }
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 5px;
+}
+
+/* .stat-value {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.stat-label {
+  font-size: 0.8rem;
+  color: #666;
+} */
