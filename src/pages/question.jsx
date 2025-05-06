@@ -65,7 +65,7 @@ const Question = () => {
         {currentQuestion.questionText && (
           <div className="question-text">
             <strong>Q{currentIndex + 1}:</strong>{" "}
-            <MathJax dynamic inline>{currentQuestion.questionText}</MathJax>
+            <MathJax dynamic>{currentQuestion.questionText}</MathJax>
           </div>
         )}
 
@@ -88,7 +88,7 @@ const Question = () => {
               onClick={() => handleOptionClick(opt)}
               disabled={showSolution}
             >
-              <MathJax dynamic inline>{opt}</MathJax>
+              <MathJax dynamic>{opt}</MathJax>
             </button>
           ))}
         </div>
