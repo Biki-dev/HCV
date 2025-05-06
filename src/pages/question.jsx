@@ -13,7 +13,7 @@ const Question = () => {
   const [showSolution, setShowSolution] = useState(false);
 
   useEffect(() => {
-    fetch(`http://localhost:5000/api/questions/${chapterId}`)
+    fetch(`https://hcv-1.onrender.com/api/questions/${chapterId}`)
       .then(res => {
         if (!res.ok) throw new Error('Failed to fetch');
         return res.json();
