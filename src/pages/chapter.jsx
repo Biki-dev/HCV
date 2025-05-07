@@ -4,8 +4,8 @@ import './chapter.css';
 
 const chapters = [
   // Class 11
-  { id: 1, name: 'Physical World and Measurement' },
-  { id: 2, name: 'Kinematics' },
+  { id: 1, name: 'INTRODUCTION TO PHYSICS' },
+  { id: 2, name: 'PHYSICS AND MATHEMATICS' },
   { id: 3, name: 'Forces' },
   { id: 4, name: 'Work, Energy and Power' },
   { id: 5, name: 'Motion of System of Particles and Rigid Body' },
